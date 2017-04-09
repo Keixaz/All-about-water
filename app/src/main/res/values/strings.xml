@@ -1,0 +1,40 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">All about water</string>
+    <string name="hint_name_editText">Type your name, please!</string>
+    <string name="question_1">Where do we find water?</string>
+    <string name="answer_1a">Only on Earth.</string>
+    <string name="answer_1b">On several planets and satellites.</string>
+    <string name="answer_1c">On Earth and Moon.</string>
+    <string name="question_2">The 0.02% of Earth weight is water, but how much surface does it cover?</string>
+    <string name="answer_2a">71%</string>
+    <string name="answer_2b">50%</string>
+    <string name="answer_2c">65%</string>
+    <string name="question_3">How much percent of water is sweet water?</string>
+    <string name="answer_3a">2.0%</string>
+    <string name="answer_3b">3.5%</string>
+    <string name="answer_3c">7.2%</string>
+    <string name="question_4">How much percent of sweet water is in solid state?</string>
+    <string name="answer_4a">98%</string>
+    <string name="answer_4b">80%</string>
+    <string name="answer_4c">70%</string>
+    <string name="question_5">Women have 55% of water in their body, how much have babies?</string>
+    <string name="answer_5a">65%</string>
+    <string name="answer_5b">70%</string>
+    <string name="answer_5c">75%</string>
+    <string name="question_6">How much water is in our brain?</string>
+    <string name="answer_6a">65%</string>
+    <string name="answer_6b">70%</string>
+    <string name="answer_6c">75%</string>
+    <string name="question_7">What is thirst?</string>
+    <string name="answer_7a">A warning mechanism against dehydration.</string>
+    <string name="answer_7b">When our body has lost 1% of its water.</string>
+    <string name="answer_7c">A feeling against hunger.</string>
+    <string name="button_check">Check my answers</string>
+    <!--Information for the quiz results.
+        It will be shown in the format of "3 out of 7" where 3 is the number of right answers-->
+    <string name="quiz_summary_points"><xliff:g id="name" example="3">%d</xliff:g> out of 7</string>
+    <!--Information for the quiz results.
+        It will be shown in the format of "Great job Anna" where Anna is the name [CHAR LIMIT=NONE]-->
+    <string name="quiz_summary_ok">Great job <xliff:g id="name" example="Anna">%s</xliff:g>!</string>
+    <string name="quiz_summary_wrong">Try again <xliff:g id="name" example="Anna">%s</xliff:g>!</string>
+</resources>
