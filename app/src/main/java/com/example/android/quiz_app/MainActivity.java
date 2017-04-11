@@ -17,54 +17,70 @@ import java.util.Currency;
 import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
+    //Layout Elements
+    RadioGroup radioGroup_q1;
+    RadioGroup radioGroup_q2;
+    RadioGroup radioGroup_q3;
+    RadioGroup radioGroup_q4;
+    RadioGroup radioGroup_q5;
+    RadioGroup radioGroup_q6;
+    CheckBox checkBox_7a;
+    CheckBox checkBox_7b;
+    CheckBox checkBox_7c;
+    EditText editText_name ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //Initiate layout elements
+        radioGroup_q1 = (RadioGroup) findViewById(R.id.radioGroup_q1);
+        radioGroup_q2 = (RadioGroup) findViewById(R.id.radioGroup_q2);
+        radioGroup_q3 = (RadioGroup) findViewById(R.id.radioGroup_q3);
+        radioGroup_q4 = (RadioGroup) findViewById(R.id.radioGroup_q4);
+        radioGroup_q5 = (RadioGroup) findViewById(R.id.radioGroup_q5);
+        radioGroup_q6 = (RadioGroup) findViewById(R.id.radioGroup_q6);
+        checkBox_7a = (CheckBox) findViewById(R.id.checkBox_7a);
+        checkBox_7b = (CheckBox) findViewById(R.id.checkBox_7b);
+        checkBox_7c = (CheckBox) findViewById(R.id.checkBox_7c);
+        editText_name = (EditText) findViewById(R.id.editText_name);
     }
+
     public void check(View view){
         int points = 0;
-        RadioGroup radioGroup;
+
         //Let us check the first answer
-        radioGroup = (RadioGroup) findViewById(R.id.radioGroup_q1);
-        if(radioGroup.getCheckedRadioButtonId()==R.id.rB_1b){
+        if(radioGroup_q1.getCheckedRadioButtonId()==R.id.rB_1b){
             points++;
         }
         //Let us check the rest radio button answers
-        radioGroup = (RadioGroup) findViewById(R.id.radioGroup_q2);
-        if(radioGroup.getCheckedRadioButtonId()==R.id.rB_2a){
+        if(radioGroup_q2.getCheckedRadioButtonId()==R.id.rB_2a){
             points++;
         }
-        radioGroup = (RadioGroup) findViewById(R.id.radioGroup_q3);
-        if(radioGroup.getCheckedRadioButtonId()==R.id.rB_3b){
+        if(radioGroup_q3.getCheckedRadioButtonId()==R.id.rB_3b){
             points++;
         }
-        radioGroup = (RadioGroup) findViewById(R.id.radioGroup_q4);
-        if(radioGroup.getCheckedRadioButtonId()==R.id.rB_4c){
+        if(radioGroup_q4.getCheckedRadioButtonId()==R.id.rB_4c){
             points++;
         }
-        radioGroup = (RadioGroup) findViewById(R.id.radioGroup_q5);
-        if(radioGroup.getCheckedRadioButtonId()==R.id.rB_5c){
+        if(radioGroup_q5.getCheckedRadioButtonId()==R.id.rB_5c){
             points++;
         }
-        radioGroup = (RadioGroup) findViewById(R.id.radioGroup_q6);
-        if(radioGroup.getCheckedRadioButtonId()==R.id.rB_6b){
+        if(radioGroup_q6.getCheckedRadioButtonId()==R.id.rB_6b){
             points++;
         }
+
         //Let us check now the Check Boxes question
-        CheckBox cB_7a = (CheckBox) findViewById(R.id.checkBox_7a);
-        CheckBox cB_7b = (CheckBox) findViewById(R.id.checkBox_7b);
-        CheckBox cB_7c = (CheckBox) findViewById(R.id.checkBox_7c);
-        if(cB_7a.isChecked()){
-            if(cB_7b.isChecked()){
-                if(cB_7c.isChecked()==false){
+        if(checkBox_7a.isChecked()){
+            if(checkBox_7b.isChecked()){
+                if(checkBox_7c.isChecked()==false){
                     points++;
                 }
             }
         }
+
         //Take the name from EditText
-        EditText editText_name = (EditText) findViewById(R.id.editText_name);
         String name = editText_name.getText().toString();
 
         //Create feedback message

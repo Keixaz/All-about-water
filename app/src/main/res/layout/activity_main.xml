@@ -21,307 +21,284 @@
                 android:src="@drawable/agua_v" />
 
             <LinearLayout
+                android:id="@+id/linearLayout_quiz"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="20dp"
+                android:layout_margin="@dimen/space_M"
                 android:orientation="vertical">
 
                 <EditText
                     android:id="@+id/editText_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/space_S"
                     android:hint="@string/hint_name_editText"
-                    android:textSize="20sp"
-                    android:paddingBottom="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:textColor="@color/colorText"
-                    android:textColorHint="@color/colorText"/>
+                    android:paddingBottom="@dimen/space_S"
+                    style="@style/AppTheme"
+                    android:textSize="@dimen/font_size_title" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingBottom="5dp"
-                    android:paddingTop="10dp"
+                    android:paddingBottom="@dimen/space_XS"
+                    android:paddingTop="@dimen/space_S"
                     android:text="@string/question_1"
-                    android:textColor="@color/colorText"
-                    android:textSize="20sp" />
+                    style="@style/AppTheme"
+                    android:textSize="@dimen/font_size_title" />
 
                 <RadioGroup
                     android:id="@+id/radioGroup_q1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="10dp">
+                    android:paddingLeft="@dimen/space_S">
 
                     <RadioButton
                         android:id="@+id/rB_1a"
-                        android:buttonTint="@color/colorText"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="@string/answer_1a"
-                        android:textColor="@color/colorText"/>
+                        style="@style/AppTheme"
+                        android:text="@string/answer_1a" />
 
                     <RadioButton
                         android:id="@+id/rB_1b"
-                        android:buttonTint="@color/colorText"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="@string/answer_1b"
-                        android:textColor="@color/colorText"/>
+                        style="@style/AppTheme"
+                        android:text="@string/answer_1b"/>
 
                     <RadioButton
                         android:id="@+id/rB_1c"
-                        android:buttonTint="@color/colorText"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="@string/answer_1c"
-                        android:textColor="@color/colorText"/>
+                        style="@style/AppTheme"
+                        android:text="@string/answer_1c"/>
                 </RadioGroup>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingBottom="5dp"
-                    android:paddingTop="10dp"
+                    android:paddingBottom="@dimen/space_XS"
+                    android:paddingTop="@dimen/space_S"
                     android:text="@string/question_2"
-                    android:textColor="@color/colorText"
-                    android:textSize="20sp" />
+                    style="@style/AppTheme"
+                    android:textSize="@dimen/font_size_title" />
 
                 <RadioGroup
                     android:id="@+id/radioGroup_q2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="10dp">
+                    android:paddingLeft="@dimen/space_S">
 
                     <RadioButton
                         android:id="@+id/rB_2a"
-                        android:buttonTint="@color/colorText"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="@string/answer_2a"
-                        android:textColor="@color/colorText"/>
+                        style="@style/AppTheme"/>
 
                     <RadioButton
                         android:id="@+id/rB_2b"
-                        android:buttonTint="@color/colorText"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="@string/answer_2b"
-                        android:textColor="@color/colorText"/>
+                        style="@style/AppTheme"/>
 
                     <RadioButton
                         android:id="@+id/rB_2c"
-                        android:buttonTint="@color/colorText"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="@string/answer_2c"
-                        android:textColor="@color/colorText"/>
+                        style="@style/AppTheme"/>
                 </RadioGroup>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingBottom="5dp"
-                    android:paddingTop="10dp"
+                    android:paddingBottom="@dimen/space_XS"
+                    android:paddingTop="@dimen/space_S"
                     android:text="@string/question_3"
-
-                    android:textColor="@color/colorText"
-                    android:textSize="20sp" />
+                    style="@style/AppTheme"
+                    android:textSize="@dimen/font_size_title" />
 
                 <RadioGroup
                     android:id="@+id/radioGroup_q3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="10dp">
+                    android:paddingLeft="@dimen/space_S">
 
                     <RadioButton
                         android:id="@+id/rB_3a"
-                        android:buttonTint="@color/colorText"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="@string/answer_3a"
-                        android:textColor="@color/colorText"/>
+                        style="@style/AppTheme" />
 
                     <RadioButton
                         android:id="@+id/rB_3b"
-                        android:buttonTint="@color/colorText"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="@string/answer_3b"
-                        android:textColor="@color/colorText"/>
+                        style="@style/AppTheme" />
 
                     <RadioButton
                         android:id="@+id/rB_3c"
-                        android:buttonTint="@color/colorText"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="@string/answer_3c"
-                        android:textColor="@color/colorText"/>
+                        style="@style/AppTheme" />
                 </RadioGroup>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingBottom="5dp"
-                    android:paddingTop="10dp"
+                    android:paddingBottom="@dimen/space_XS"
+                    android:paddingTop="@dimen/space_S"
                     android:text="@string/question_4"
-                    android:textColor="@color/colorText"
-                    android:textSize="20sp" />
+                    style="@style/AppTheme"
+                    android:textSize="@dimen/font_size_title" />
 
                 <RadioGroup
                     android:id="@+id/radioGroup_q4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="10dp">
+                    android:paddingLeft="@dimen/space_S">
 
                     <RadioButton
                         android:id="@+id/rB_4a"
-                        android:buttonTint="@color/colorText"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="@string/answer_4a"
-                        android:textColor="@color/colorText"/>
+                        style="@style/AppTheme" />
 
                     <RadioButton
                         android:id="@+id/rB_4b"
-                        android:buttonTint="@color/colorText"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="@string/answer_4b"
-                        android:textColor="@color/colorText"/>
+                        style="@style/AppTheme" />
 
                     <RadioButton
                         android:id="@+id/rB_4c"
-                        android:buttonTint="@color/colorText"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="@string/answer_4c"
-                        android:textColor="@color/colorText"/>
+                        style="@style/AppTheme" />
                 </RadioGroup>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingBottom="5dp"
-                    android:paddingTop="10dp"
+                    android:paddingBottom="@dimen/space_XS"
+                    android:paddingTop="@dimen/space_S"
                     android:text="@string/question_5"
-                    android:textColor="@color/colorText"
-                    android:textSize="20sp" />
+                    style="@style/AppTheme"
+                    android:textSize="@dimen/font_size_title" />
 
                 <RadioGroup
                     android:id="@+id/radioGroup_q5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="10dp">
+                    android:paddingLeft="@dimen/space_S">
 
                     <RadioButton
                         android:id="@+id/rB_5a"
-                        android:buttonTint="@color/colorText"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="@string/answer_5a"
-                        android:textColor="@color/colorText"/>
+                        style="@style/AppTheme" />
 
                     <RadioButton
                         android:id="@+id/rB_5b"
-                        android:buttonTint="@color/colorText"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="@string/answer_5b"
-                        android:textColor="@color/colorText"/>
+                        style="@style/AppTheme" />
 
                     <RadioButton
                         android:id="@+id/rB_5c"
-                        android:buttonTint="@color/colorText"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="@string/answer_5c"
-                        android:textColor="@color/colorText"/>
+                        style="@style/AppTheme" />
                 </RadioGroup>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingBottom="5dp"
-                    android:paddingTop="10dp"
+                    android:paddingBottom="@dimen/space_XS"
+                    android:paddingTop="@dimen/space_S"
                     android:text="@string/question_6"
-                    android:textColor="@color/colorText"
-                    android:textSize="20sp" />
+                    style="@style/AppTheme"
+                    android:textSize="@dimen/font_size_title" />
 
                 <RadioGroup
                     android:id="@+id/radioGroup_q6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="10dp">
+                    android:paddingLeft="@dimen/space_S">
 
                     <RadioButton
                         android:id="@+id/rB_6a"
-                        android:buttonTint="@color/colorText"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="@string/answer_6a"
-                        android:textColor="@color/colorText"/>
+                        style="@style/AppTheme"/>
 
                     <RadioButton
                         android:id="@+id/rB_6b"
-                        android:buttonTint="@color/colorText"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="@string/answer_6b"
-                        android:textColor="@color/colorText"/>
+                        style="@style/AppTheme"/>
 
                     <RadioButton
                         android:id="@+id/rB_6c"
-                        android:buttonTint="@color/colorText"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="@string/answer_6c"
-                        android:textColor="@color/colorText"/>
+                        style="@style/AppTheme" />
                 </RadioGroup>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingBottom="5dp"
-                    android:paddingTop="10dp"
+                    android:paddingBottom="@dimen/space_XS"
+                    android:paddingTop="@dimen/space_S"
                     android:text="@string/question_7"
-                    android:textColor="@color/colorText"
-                    android:textSize="20sp" />
+                    style="@style/AppTheme"
+                    android:textSize="@dimen/font_size_title" />
 
                 <CheckBox
                     android:id="@+id/checkBox_7a"
-                    android:buttonTint="@color/colorText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/colorText"
+                    android:layout_marginLeft="@dimen/space_S"
                     android:text="@string/answer_7a"
-                    android:layout_marginLeft="10dp"/>
+                    style="@style/AppTheme" />
 
                 <CheckBox
                     android:id="@+id/checkBox_7b"
-                    android:buttonTint="@color/colorText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space_S"
                     android:text="@string/answer_7b"
-                    android:textColor="@color/colorText"
-                    android:layout_marginLeft="10dp"/>
+                    style="@style/AppTheme"/>
 
                 <CheckBox
                     android:id="@+id/checkBox_7c"
-                    android:buttonTint="@color/colorText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space_S"
                     android:text="@string/answer_7c"
-                    android:textColor="@color/colorText"
-                    android:layout_marginLeft="10dp"/>
+                    style="@style/AppTheme" />
 
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/button_check"
-                    android:textColor="@color/colorText"
-                    android:paddingLeft="10dp"
-                    android:layout_marginTop="20dp"
-                    android:onClick="check"/>
+                    android:layout_marginTop="@dimen/space_M"
+                    android:onClick="check"
+                    android:paddingLeft="@dimen/space_S"
+                    android:text="@string/button_check" />
             </LinearLayout>
         </RelativeLayout>
     </LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">All about water</string>
+    <string name="answer_1a">En la tierra.</string>
+    <string name="answer_1b">En varios planetas y satélites.</string>
+    <string name="answer_1c">En la tierra y la luna.</string>
+    <string name="answer_7a">Un mecanismo de alerta contra la deshidratación.</string>
+    <string name="answer_7b">Cuando nuestro cuerpo ha perdido un 1% de su agua.</string>
+    <string name="answer_7c">Un sentimiento contra el hambre.</string>
+    <string name="button_check">Corregir</string>
+    <string name="hint_name_editText">Introduce tu nombre, por favor.</string>
+    <string name="question_1">¿Dónde encontramos agua?</string>
+    <string name="question_2">El agua contituye un 0.02% del peso de la tierra, ¿cuánta superficie cubre?</string>
+    <string name="question_3">¿Qué porcentaje de agua es agua dulce?</string>
+    <string name="question_4">¿Qué porcentaje de agua se encuentra en estado sólido?</string>
+    <string name="question_5">El cuerpo de la mujer está constituido en un 55% de agua, ¿cuál es el porcentaje de agua en bebés?</string>
+    <string name="question_6">¿Qué porcentaje del cerebro es agua?</string>
+    <string name="question_7">¿Qué es la sed?</string>
+    <string name="quiz_summary_ok">Buen trabajo <xliff:g id="name" example="Ana">%s</xliff:g>!</string>
+    <string name="quiz_summary_points"><xliff:g id="name" example="3">%d</xliff:g> de 7</string>
+    <string name="quiz_summary_wrong">Inténtalo de nuevo <xliff:g id="name" example="Ana">%s</xliff:g>!</string>
+</resources>
